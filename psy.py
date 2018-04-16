@@ -1,12 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
 
-'''''
-总的来说就是通过搜狗搜索中的微信搜索入口来爬取
-2017-04-12 by Jimy_fengqi
-'''
-
-# 这三行代码是防止在python2上面编码错误的，在python3上面不要要这样设置
 import sys
 
 reload(sys)
@@ -235,10 +229,6 @@ class weixin_spider:
             # main
 
 
-# 几个可供参考的公众号
-# DataBureau
-# python6359
-# ArchNotes
 if __name__ == '__main__':
     gongzhonghao = raw_input(u'输入要爬取的公众号')
     if not gongzhonghao:
